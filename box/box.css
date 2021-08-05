@@ -4,11 +4,26 @@
   background-color: #FFC0CB;
   margin: 30px;
   padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.box2{
+.box2 {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: red;
   border: 5px solid yellow;
+  margin-top: 30px;
+
 }
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid yellow;
+  padding: 0 20px;
+}
+
