@@ -1,22 +1,32 @@
+<!--文書型宣言、ブラウザがHTMLファイルを認識するもの-->
 <!DOCTYPE html>
+
+<!--html要素はHTML文書を示すもの、DOCTYPEとセットで必要-->
 <html lang="ja">
+
+  <!--head要素はブラウザや検索エンジン伝えたい情報-->
   <head>
-    <meta charset="UTF-8" />
-    <!-- CSSファイルの読み込み -->
-    <link rel="stylesheet" href="box.css" />
+
+    <!--文字コードの指定（文字化けしない）-->
+    <mata charset="UTF-8"/>
+
+    <!--CSSファイルの読み込み、link要素はファイル同士の関係性を知らせてる-->
+    <!--rel属性は現在のファイルとリンク先のファイル（css）の関係性を指定、
+      href属性は読み込む外部ファイルを相対パスで指定-->
+    <link rel="stylesheet" href="box.css">
+
+    <!--Webページのタイトル-->
     <title>BOX</title>
+
   </head>
 
+  <!--ブラウザに表示されるコンテンツ-->
   <body>
-    <!-- box1用のdiv -->
+    
+    <!--ボックスモデル-->
     <div class="box1">
-      <div class="box2">
-        <h>hello</h>
-      </div>
-      <div class="box3">
-        <h>hi</h>
-      </div>
-  </div>
-  
+      <div class="box2"></div>
+    </div>
+
   </body>
 </html>
