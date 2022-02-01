@@ -2,45 +2,51 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8"/>
-
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
     <title>CARAVAN</title>
   </head>
-    
   <body>
-    
+    <!--divタグではなくheaderタグ-->
     <header>
+
+      <!--hタグで見出し-->
       <h1 class="heading">
-        <a href="index.html">
+
+        <!--a要素でリンク、href属性でURL-->
+        <a href ="index.html">       
           CARAVAN
         </a>
-      </h1>
+      </h1>   
     </header>
 
+    <!--ナビゲーションメニュー-->
     <nav>
+
+      <!--ulは箇条書き、olは番号付き、liでリスト内容指定-->
       <ul class="nav-list">
         <li class="nav-list-item">
           <a href="index.html">Home</a>
         </li>
         <li class="nav-list-item">About</li>
         <li class="nav-list-item">Topic</li>
-
       </ul>
     </nav>
-  
+
+    <!--main-visual用-->
     <div class="main-visual">
       <div class="main-visual-content"></div>
-       
     </div>
 
+    <!--main用-->
     <div class="main">
       <div class="blog"></div>
       <div class="sidebar"></div>
-    
     </div>
 
+    <!--divタグではなくfooterタグ-->
     <footer>
       <p class="footer-text">© All rights reserved by Infratop.Inc.</p>
     </footer>
+
   </body>
 </html>
