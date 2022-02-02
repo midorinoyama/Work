@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -12,10 +12,11 @@ header {
   font-size: 22px;
 }
 
-nav {
+/*nav {
   text-align: center;
-}
+} :*/
 
 .list {
+  /*リセットCSSにより、olの番号が表示される領域が消えてしまったため領域をつくる*/
   padding-left: 40px;
 }
