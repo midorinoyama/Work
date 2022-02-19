@@ -41,8 +41,11 @@ header .heading {
 }
 
 .main-visual-content {
-  width: 350px;
+  width: 40%;
   height: 300px;
+  background-color: rgba(0, 0, 0, 0.5); 背景を半透明の黒
+  /*background-color: rgba(225, 225, 225, 1); 不透明の白
+  RGBA　rgb(0,0,0)は黒 rgb(225,25,225)は白* a（アルファ値）0が透明、1は不透明/
 }
 
 main {
